@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
+<head th:replace="~{base :: head}"></head>
+<meta charset="UTF-8">
+<body>
+  <header th:replace="~{base :: header}"></header>
+      <div class="container">
+          <h1 class="mb-3 text-center">CADASTRAR NOVO USUÁRIO</h1>
+          <form id="cadastro-form" action="/cadastrar" method="post">
+              <div class="p-3">
+                  <div class="mb-3">
+                      <label for="nome" class="form-label">NOME</label>
+                      <input id="nome" name="nome" type="text" class="form-control" placeholder="Digite seu nome">
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">EMAIL</label>
+                      <input id="email" name="email" type="email" class="form-control" placeholder="Digite seu email">
+                  </div>
+                  <button data-callback='onSubmit' data-action='submit' th:attr="data-siteKey=${@recaptchaKeys.getSite()}" class="g-recaptcha btn btn-primary">CADASTRAR</button>
+              </div>
+          </form>
+            <div th:if="${msgError}" th:text="${msgError}"  class="alert alert-danger text-center"></div>
+      </div>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("cadastro-form").submit();
+        }
+    </script>
+
+</body>
+</html>

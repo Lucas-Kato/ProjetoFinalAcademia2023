@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "google.recaptcha.key",
+      "type": "br.com.kaikei.recaptcha.RecaptchaKeys",
+      "sourceType": "br.com.kaikei.recaptcha.RecaptchaKeys"
+    }
+  ],
+  "properties": [
+    {
+      "name": "google.recaptcha.key.secret",
+      "type": "java.lang.String",
+      "sourceType": "br.com.kaikei.recaptcha.RecaptchaKeys"
+    },
+    {
+      "name": "google.recaptcha.key.site",
+      "type": "java.lang.String",
+      "sourceType": "br.com.kaikei.recaptcha.RecaptchaKeys"
+    },
+    {
+      "name": "google.recaptcha.key.threshold",
+      "type": "java.lang.Float",
+      "sourceType": "br.com.kaikei.recaptcha.RecaptchaKeys"
+    }
+  ],
+  "hints": []
+}
