@@ -41,7 +41,26 @@ Aplicação web onde vai realizar leitura de arquivo de transação financeira p
  * Após a importação, libera a opção "detalhar", onde pode ser visualizado o conteúdo do arquivo, contendo data, nome do usuário que foi realizdo a importação, banco,conta, agência e o valor.
   ![detalhar](https://github.com/Lucas-Kato/ProjetoFinalAcademia2023/assets/118133248/0a6f5b91-88b9-4627-aa1e-54d2a37ace0a)
 
-* <b>Funcionalidade 5</b>: Alteração dos dados
+* <b>Funcionalidade 5</b>: Alteração dos dados cadastrais.
+* Na página do cadastro, vai aparecer lista de usuários cadastrados.
+  <img width="960" alt="usuários cadastrados" src="https://github.com/Lucas-Kato/ProjetoFinalAcademia2023/assets/118133248/7ec2471d-926d-40ad-94a2-0bf1edf23fe3">
+
+*Ao clicar no ícone editar, vai possibilitar a alteração dos dados cadastrados (nome e e-mail).
+  <img width="960" alt="alteração do cadastro" src="https://github.com/Lucas-Kato/ProjetoFinalAcademia2023/assets/118133248/09e264b5-d45e-44e1-a37b-37c7b631e9f7">
+
+*Após alteração de nome ou e-mail, vai aparecer tela de sucesso.
+   <img width="960" alt="alteração do sucesso" src="https://github.com/Lucas-Kato/ProjetoFinalAcademia2023/assets/118133248/d8ba8f88-c489-4097-8351-f222e1645f04">
+
+*Após clicar no ícone de excluir, vai aparececr tela de sucesso.
+  <img width="960" alt="excluido com sucesso" src="https://github.com/Lucas-Kato/ProjetoFinalAcademia2023/assets/118133248/3f4a8a6f-3410-43be-a20c-e87ee98b6add">
+
+* <b>Funcionalidade 6</b>:Análise de dados.
+* Na página de análise de transações. Seleciona o mês e o ano que deseja realizar a leitura.
+  <img width="960" alt="mes e o ano" src="https://github.com/Lucas-Kato/ProjetoFinalAcademia2023/assets/118133248/82ad5cb6-ba2d-41ee-9212-fda1914b918a">
+
+*Após selecionar e clicar em realizar análise, vai lista as transações e separar por bloco: Transações suspeitas, contas suspeitas e agência supeira.
+  <img width="960" alt="analise" src="https://github.com/Lucas-Kato/ProjetoFinalAcademia2023/assets/118133248/74a05c26-60f8-4f38-b894-3df3111d13be">
+
 
 ## :wrench: Tecnologias utilizadas
 * HTML;
