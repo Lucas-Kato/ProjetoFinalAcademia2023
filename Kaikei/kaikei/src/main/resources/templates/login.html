@@ -7,7 +7,7 @@
 <body>
     <header th:replace="~{base :: header}"></header>
     <div class="container">
-        <h1 class="mb-3 text-center">Sistema de Análise de Transação Financeiras</h1>
+        <h1 class="mb-3 text-center">Kaikei - Sistema de Análise de Transação Financeiras</h1>
         <form th:action="@{/login}" method="post" id="login-form">
             <!--/*@thymesVar id="msgRegister" type="br.com.kaikei.controller.CadastroUsuarioController"*/-->
             <div th:if="${msgCadastro}" th:text="${msgCadastro}" class="alert alert-warning" role="alert" align="center"></div>
