@@ -2,6 +2,7 @@
 
 ## :memo: Descrição
 Aplicação web onde vai realizar leitura de arquivo de transação financeira para verificar se teve alguma transaçao suspeita para empresa no ramo de auditoria.
+se está ou não em coformidade com a legislação tributária vigente.
 
 ## :books: Funcionalidades
 * <b>Funcionalidade 1</b>: Controle de acesso: É necessário realizar login usando e-mail cadastrado e senha.
